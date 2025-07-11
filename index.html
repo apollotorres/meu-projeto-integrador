@@ -5,15 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Integrador 2025</title>
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <style>
@@ -25,7 +22,6 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- =========== CABEÇALHO (HEADER) =========== -->
     <header id="inicio" class="bg-white/80 backdrop-blur-sm shadow-sm fixed top-0 left-0 right-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <h1 class="text-xl md:text-2xl font-bold text-blue-600">Projeto Integrador</h1>
@@ -35,12 +31,10 @@
                 <a href="#planejamento-financeiro" class="text-gray-600 hover:text-blue-600 transition-colors">Planejamento Financeiro</a>
                 <a href="#equipe" class="text-gray-600 hover:text-blue-600 transition-colors">Equipes</a>
             </nav>
-            <!-- Menu Hamburguer para Mobile -->
             <button id="menu-btn" class="md:hidden">
                 <i data-lucide="menu" class="w-6 h-6"></i>
             </button>
         </div>
-        <!-- Menu Mobile -->
         <div id="mobile-menu" class="hidden md:hidden bg-white">
             <a href="#inicio" class="block text-center py-2 px-4 text-sm text-gray-600 hover:bg-blue-50">Início</a>
             <a href="#saude-mental" class="block text-center py-2 px-4 text-sm text-gray-600 hover:bg-blue-50">Saúde Mental</a>
@@ -49,18 +43,13 @@
         </div>
     </header>
 
-    <main class="pt-20"> <!-- Padding no topo para não ficar atrás do header -->
-
-        <!-- =========== SEÇÃO DE INTRODUÇÃO (HERO) =========== -->
-        <section class="relative h-[60vh] min-h-[400px] flex items-center justify-center text-center text-white bg-gray-700">
-            <!-- Imagem de fundo com sobreposição escura -->
+    <main class="pt-20"> <section class="relative h-[60vh] min-h-[400px] flex items-center justify-center text-center text-white bg-gray-700">
             <div class="absolute inset-0">
                 <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1920&auto=format&fit=crop" 
                      alt="Imagem de fundo representando colaboração e tecnologia" 
                      class="w-full h-full object-cover">
                 <div class="absolute inset-0 bg-black/60"></div>
             </div>
-            <!-- Conteúdo da seção -->
             <div class="relative z-10 px-6">
                 <h2 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Inovação, Conhecimento e Impacto Social</h2>
                 <p class="text-lg md:text-xl max-w-3xl mx-auto text-gray-200">
@@ -69,7 +58,6 @@
             </div>
         </section>
 
-        <!-- =========== SEÇÃO SAÚDE MENTAL =========== -->
         <section id="saude-mental" class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
@@ -82,7 +70,6 @@
                     </p>
                 </div>
 
-                <!-- Destaques -->
                 <div class="grid md:grid-cols-3 gap-8 mb-12 text-center">
                     <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
                         <i data-lucide="presentation" class="w-10 h-10 mx-auto mb-4 text-blue-500"></i>
@@ -98,7 +85,6 @@
                     </div>
                 </div>
 
-                <!-- Botão de Ação -->
                 <div class="text-center">
                     <a href="https://www.instagram.com/oalicercedavidaplena?igsh=MTh4ZGt6dnlhZnloaQ==" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-blue-700 transition-transform transform hover:scale-105">
                         Acesse nosso Instagram
@@ -108,7 +94,6 @@
             </div>
         </section>
 
-        <!-- =========== SEÇÃO PLANEJAMENTO FINANCEIRO =========== -->
         <section id="planejamento-financeiro" class="py-16 md:py-24 bg-gray-50">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-12">
@@ -121,7 +106,6 @@
                     </p>
                 </div>
 
-                <!-- Destaques -->
                 <div class="grid md:grid-cols-3 gap-8 mb-12 text-center">
                     <div class="bg-white p-6 rounded-lg shadow-sm">
                         <i data-lucide="layout-dashboard" class="w-10 h-10 mx-auto mb-4 text-green-500"></i>
@@ -137,7 +121,6 @@
                     </div>
                 </div>
 
-                <!-- Botão de Ação -->
                 <div class="text-center">
                     <a href="https://studio--flowfy-6zy5a.us-central1.hosted.app/login" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-green-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-green-700 transition-transform transform hover:scale-105">
                         Conheça o Sistema
@@ -147,7 +130,6 @@
             </div>
         </section>
 
-        <!-- =========== SEÇÃO NOSSAS EQUIPES =========== -->
         <section id="equipe" class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-16">
@@ -160,7 +142,6 @@
                     </p>
                 </div>
 
-                <!-- Grupo 1: Saúde Mental (5 integrantes) -->
                 <div class="mb-16">
                     <h4 class="text-2xl font-bold text-center text-blue-600 mb-8">Grupo: Saúde Mental</h4>
                     <div class="flex flex-wrap justify-center gap-8">
@@ -192,7 +173,6 @@
                     </div>
                 </div>
 
-                <!-- Grupo 2: Planejamento Financeiro (4 integrantes) -->
                 <div class="mb-16">
                     <h4 class="text-2xl font-bold text-center text-green-600 mb-8">Grupo: Planejamento Financeiro</h4>
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -219,12 +199,11 @@
                     </div>
                 </div>
 
-                <!-- Colaboradores -->
                 <div>
                     <h4 class="text-2xl font-bold text-center text-purple-600 mb-8">Colaboradores</h4>
                     <div class="flex flex-wrap justify-center gap-8">
                         <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all w-full sm:w-auto max-w-xs">
-                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://placehold.co/200x200/f0abfc/ffffff?text=D" alt="Foto da Professora Daniela">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/5yf05SA.jpeg" alt="Foto da Professora Daniela">
                             <h5 class="text-xl font-bold text-gray-800">Professora Daniela</h5>
                             <p class="text-gray-600 text-sm mt-1">Orientadora geral do Projeto Integrador, oferecendo suporte e direcionamento para ambos os grupos em todas as etapas.</p>
                         </div>
@@ -241,7 +220,6 @@
 
     </main>
 
-    <!-- =========== RODAPÉ (FOOTER) =========== -->
     <footer class="bg-gray-800 text-gray-300 py-8">
         <div class="container mx-auto px-6 text-center">
             <p>&copy; 2025 - Projeto Integrador</p>
