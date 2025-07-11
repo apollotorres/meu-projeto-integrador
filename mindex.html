@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Integrador 2025</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <style>
+        /* Define a fonte Inter como padrão */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header id="inicio" class="bg-white/80 backdrop-blur-sm shadow-sm fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-xl md:text-2xl font-bold text-blue-600">Projeto Integrador</h1>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#inicio" class="text-gray-600 hover:text-blue-600 transition-colors">Início</a>
+                <a href="#saude-mental" class="text-gray-600 hover:text-blue-600 transition-colors">Saúde Mental</a>
+                <a href="#planejamento-financeiro" class="text-gray-600 hover:text-blue-600 transition-colors">Planejamento Financeiro</a>
+                <a href="#equipe" class="text-gray-600 hover:text-blue-600 transition-colors">Equipes</a>
+            </nav>
+            <button id="menu-btn" class="md:hidden">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white">
+            <a href="#inicio" class="block text-center py-2 px-4 text-sm text-gray-600 hover:bg-blue-50">Início</a>
+            <a href="#saude-mental" class="block text-center py-2 px-4 text-sm text-gray-600 hover:bg-blue-50">Saúde Mental</a>
+            <a href="#planejamento-financeiro" class="block text-center py-2 px-4 text-sm text-gray-600 hover:bg-blue-50">Planejamento Financeiro</a>
+            <a href="#equipe" class="block text-center py-2 px-4 text-sm text-gray-600 hover:bg-blue-50">Equipes</a>
+        </div>
+    </header>
+
+    <main class="pt-20"> <section class="relative h-[60vh] min-h-[400px] flex items-center justify-center text-center text-white bg-gray-700">
+            <div class="absolute inset-0">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1920&auto=format&fit=crop" 
+                     alt="Imagem de fundo representando colaboração e tecnologia" 
+                     class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black/60"></div>
+            </div>
+            <div class="relative z-10 px-6">
+                <h2 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Inovação, Conhecimento e Impacto Social</h2>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto text-gray-200">
+                    Conheça nosso Projeto Integrador, focado em temas essenciais para o bem-estar e o futuro: Saúde Mental e Planejamento Financeiro.
+                </p>
+            </div>
+        </section>
+
+        <section id="saude-mental" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <div class="inline-flex items-center justify-center bg-blue-100 text-blue-600 rounded-full p-3 mb-4">
+                        <i data-lucide="brain-circuit" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-3xl md:text-4xl font-bold text-gray-900">Pausa para o Essencial: Saúde Mental</h3>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+                        Nosso grupo explorou a importância da saúde mental no ambiente acadêmico e profissional. Por meio de uma palestra informativa, abordamos temas como ansiedade, estresse e a importância do autocuidado, buscando quebrar tabus e promover o diálogo.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 mb-12 text-center">
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <i data-lucide="presentation" class="w-10 h-10 mx-auto mb-4 text-blue-500"></i>
+                        <h4 class="font-semibold text-xl mb-2">Palestra de Conscientização</h4>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <i data-lucide="instagram" class="w-10 h-10 mx-auto mb-4 text-blue-500"></i>
+                        <h4 class="font-semibold text-xl mb-2">Criação de Conteúdo Digital</h4>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <i data-lucide="message-circle" class="w-10 h-10 mx-auto mb-4 text-blue-500"></i>
+                        <h4 class="font-semibold text-xl mb-2">Engajamento e Diálogo Aberto</h4>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://www.instagram.com/oalicercedavidaplena?igsh=MTh4ZGt6dnlhZnloaQ==" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-blue-700 transition-transform transform hover:scale-105">
+                        Acesse nosso Instagram
+                        <i data-lucide="arrow-right" class="w-5 h-5 ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="planejamento-financeiro" class="py-16 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                     <div class="inline-flex items-center justify-center bg-green-100 text-green-600 rounded-full p-3 mb-4">
+                        <i data-lucide="scan-line" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-3xl md:text-4xl font-bold text-gray-900">Tecnologia para um Futuro Financeiro Sólido</h3>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+                        Com foco na aplicação prática da tecnologia, desenvolvemos uma solução inovadora para a gestão financeira. O projeto consiste em um sistema de controle de fluxo de caixa que utiliza Inteligência Artificial para analisar e categorizar despesas a partir de notas fiscais.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 mb-12 text-center">
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <i data-lucide="layout-dashboard" class="w-10 h-10 mx-auto mb-4 text-green-500"></i>
+                        <h4 class="font-semibold text-xl mb-2">Sistema de Gestão de Fluxo de Caixa</h4>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <i data-lucide="bot" class="w-10 h-10 mx-auto mb-4 text-green-500"></i>
+                        <h4 class="font-semibold text-xl mb-2">IA para Análise de Notas Fiscais</h4>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm">
+                        <i data-lucide="graduation-cap" class="w-10 h-10 mx-auto mb-4 text-green-500"></i>
+                        <h4 class="font-semibold text-xl mb-2">Apresentação sobre Educação Financeira</h4>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="https://studio--flowfy-6zy5a.us-central1.hosted.app/login" target="_blank" rel="noopener noreferrer" class="inline-flex items-center bg-green-600 text-white font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-green-700 transition-transform transform hover:scale-105">
+                        Conheça o Sistema
+                        <i data-lucide="arrow-right" class="w-5 h-5 ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipe" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <div class="inline-flex items-center justify-center bg-purple-100 text-purple-600 rounded-full p-3 mb-4">
+                        <i data-lucide="users" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-3xl md:text-4xl font-bold text-gray-900">Nossas Equipes e Colaboradores</h3>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+                        Conheça os estudantes e profissionais que tornaram este projeto uma realidade.
+                    </p>
+                </div>
+
+                <div class="mb-16">
+                    <h4 class="text-2xl font-bold text-center text-blue-600 mb-8">Grupo: Saúde Mental</h4>
+                    <div class="flex flex-wrap justify-center gap-8">
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all w-full sm:w-auto max-w-xs">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/0IjSjcn.jpeg" alt="Foto de Gabriel Henrique" onerror="this.onerror=null;this.src='https://placehold.co/200x200/a78bfa/ffffff?text=GH';">
+                            <h5 class="text-xl font-bold text-gray-800">Gabriel Henrique</h5>
+                            <p class="text-gray-600 text-sm mt-1">Além de sua participação na palestra, foi fundamental na prospecção da psicóloga, na organização do local e na condução de parte da dinâmica.</p>
+                        </div>
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all w-full sm:w-auto max-w-xs">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/zq855FH.jpeg" alt="Foto de Anna Julia Alves" onerror="this.onerror=null;this.src='https://placehold.co/200x200/a78bfa/ffffff?text=AJ';">
+                            <h5 class="text-xl font-bold text-gray-800">Anna Julia Alves</h5>
+                            <p class="text-gray-600 text-sm mt-1">Responsável pela criação e montagem dos slides da apresentação, e sua participação na palestra foi essencial. Também esteve envolvida em toda a fase de organização.</p>
+                        </div>
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all w-full sm:w-auto max-w-xs">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/YrzWXbj.jpeg" alt="Foto de Italo Miguel" onerror="this.onerror=null;this.src='https://placehold.co/200x200/a78bfa/ffffff?text=IM';">
+                            <h5 class="text-xl font-bold text-gray-800">Italo Miguel</h5>
+                            <p class="text-gray-600 text-sm mt-1">Contribuiu significativamente na condução de parte da dinâmica da palestra e participou ativamente de todo o processo de organização.</p>
+                        </div>
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all w-full sm:w-auto max-w-xs">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/uP9TDi9.jpeg" alt="Foto de Bruna Jesus" onerror="this.onerror=null;this.src='https://placehold.co/200x200/a78bfa/ffffff?text=BJ';">
+                            <h5 class="text-xl font-bold text-gray-800">Bruna Jesus</h5>
+                            <p class="text-gray-600 text-sm mt-1">Participou ativamente da palestra, criou e gerencia o instagram "oalicercedavidaplena" e enriqueceu a experiência com a confecção de cartões motivacionais.</p>
+                        </div>
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all w-full sm:w-auto max-w-xs">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/budQKhQ.jpeg" alt="Foto de Larissa Oliveira" onerror="this.onerror=null;this.src='https://placehold.co/200x200/a78bfa/ffffff?text=LO';">
+                            <h5 class="text-xl font-bold text-gray-800">Larissa Oliveira</h5>
+                            <p class="text-gray-600 text-sm mt-1">Integrou a equipe da palestra, contribuindo com a criação de cartões com bilhetes e frases motivacionais.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-16">
+                    <h4 class="text-2xl font-bold text-center text-green-600 mb-8">Grupo: Planejamento Financeiro</h4>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/MRSbBPx.jpeg" alt="Foto de Apollo Torres" onerror="this.onerror=null;this.src='https://placehold.co/200x200/6ee7b7/ffffff?text=AT';">
+                            <h5 class="text-xl font-bold text-gray-800">Apollo Torres</h5>
+                            <p class="text-gray-600 text-sm mt-1">Desenvolveu o sistema de gestão financeira e o site do projeto, cuidando de toda a parte técnica.</p>
+                        </div>
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/QT3IhyN.jpeg" alt="Foto de Silvana Souza" onerror="this.onerror=null;this.src='https://placehold.co/200x200/6ee7b7/ffffff?text=SS';">
+                            <h5 class="text-xl font-bold text-gray-800">Silvana Souza</h5>
+                            <p class="text-gray-600 text-sm mt-1">Escreveu os textos e conteúdos do projeto, explicando as ideias de forma clara para a apresentação e o sistema.</p>
+                        </div>
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://placehold.co/200x200/6ee7b7/ffffff?text=JD" alt="Foto de Jullya dos Santos">
+                            <h5 class="text-xl font-bold text-gray-800">Jullya dos Santos</h5>
+                            <p class="text-gray-600 text-sm mt-1">Responsável pela produção dos vídeos e do material audiovisual, além de criar o conteúdo em parceria com a Silvana.</p>
+                        </div>
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/PONRXVp.jpeg" alt="Foto de Flavia Pimenta" onerror="this.onerror=null;this.src='https://placehold.co/200x200/6ee7b7/ffffff?text=FP';">
+                            <h5 class="text-xl font-bold text-gray-800">Flavia Pimenta</h5>
+                            <p class="text-gray-600 text-sm mt-1">Fez a pesquisa, cuidou de todo o design e artes, e também ajudou a criar os conteúdos do projeto.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-2xl font-bold text-center text-purple-600 mb-8">Colaboradores</h4>
+                    <div class="flex flex-wrap justify-center gap-8">
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all w-full sm:w-auto max-w-xs">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/5yf05SA.jpeg" alt="Foto da Professora Daniela">
+                            <h5 class="text-xl font-bold text-gray-800">Professora Daniela</h5>
+                            <p class="text-gray-600 text-sm mt-1">Orientadora geral do Projeto Integrador, oferecendo suporte e direcionamento para ambos os grupos em todas as etapas.</p>
+                        </div>
+                        <div class="text-center bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all w-full sm:w-auto max-w-xs">
+                            <img class="w-32 h-32 rounded-full mx-auto mb-4 object-cover" src="https://i.imgur.com/dWl2kTc.jpeg" alt="Foto da Psicanalista Mônica" onerror="this.onerror=null;this.src='https://placehold.co/200x200/f0abfc/ffffff?text=M';">
+                            <h5 class="text-xl font-bold text-gray-800">Psicanalista Mônica Garcia</h5>
+                            <p class="text-gray-600 text-sm mt-1">Foi essencial para a execução, disponibilizando o conteúdo usado na palestra.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-300 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 - Projeto Integrador</p>
+            <p class="text-sm text-gray-400 mt-2">Desenvolvido por alunos do Senac</p>
+        </div>
+    </footer>
+
+    <script>
+        // Ativa os ícones do Lucide
+        lucide.createIcons();
+
+        // Lógica para o menu hamburguer
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Fecha o menu ao clicar em um link
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
